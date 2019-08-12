@@ -18,9 +18,7 @@ borg.storage.PREV_REPLY_MESSAGE = {}
 BAALAJI_TG_USER_BOT = "My Master hasn't approved you to PM."
 TG_COMPANION_USER_BOT = "Please wait for his response and don't spam his PM."
 UNIBORG_USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me."
-UNIBORG_USER_BOT_NO_WARN = "𝙱𝚕𝚎𝚎𝚙-𝙱𝚕𝚘𝚘𝚙 𝚝𝚑𝚒𝚜 𝚒𝚜 𝚊 𝚋𝚘𝚝,
-W𝚊𝚒𝚝 𝚏𝚘𝚛 𝚖𝚢 𝚋𝚘𝚜𝚜,
-H𝚎 𝚠𝚒𝚕𝚕 𝚌𝚑𝚘𝚘𝚜𝚎 𝚒𝚏 𝚊𝚗𝚜𝚠𝚎𝚛 𝚢𝚘𝚞 𝚘𝚛 𝚗𝚘𝚝 🙃"
+UNIBORG_USER_BOT_NO_WARN = "𝙱𝚕𝚎𝚎𝚙-𝙱𝚕𝚘𝚘𝚙 𝚝𝚑𝚒𝚜 𝚒𝚜 𝚊 𝚋𝚘𝚝,\nW𝚊𝚒𝚝 𝚏𝚘𝚛 𝚖𝚢 𝚋𝚘𝚜𝚜,\nH𝚎 𝚠𝚒𝚕𝚕 𝚌𝚑𝚘𝚘𝚜𝚎 𝚒𝚏 𝚊𝚗𝚜𝚠𝚎𝚛 𝚢𝚘𝚞 𝚘𝚛 𝚗𝚘𝚝 🙃"
 
 @borg.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
 async def monito_p_m_s(event):
